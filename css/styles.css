@@ -1,18 +1,83 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
+  background-color: rgb(127, 149, 190);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: snow
 }
 
 .genero-container {
-  margin: 20px;
+  margin: 30px 0px 0px 0px;
   padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+  border: 1px solid #cf157e;
+  background-color:  #133658;
+  background: linear-gradient(135deg, #133558b8 15%, #feb47b,#cf157e); 
+  border-radius: 25px; 
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3), /* Sombra exterior */
+              inset 0 0 23px rgba(255, 255, 255, 0.6); /* Sombra interior */
+  
+  /* Borde difuminado */
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+h1{
+  color: aliceblue;
+  text-shadow:  3px 3px 3px deeppink;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline ;
+  
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  border-bottom: dashed;
+  width: fit-content;
+
 }
+ .genero{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:5%;
+  
+  
+}
+.genero>div{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  max-width: fit-content;
+  margin: 25px 5px;
+  padding: 20px;
+  border: #cf157e solid;
+  border-radius: 20px;
+  
+ } 
 
+ img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  
 
+ }
+
+.title{
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-top: 20px;         
+  text-align: center;
+  line-height: 1.2;  
+  max-height: 40px;
+
+}
+.genero>div:hover{
+  transform: scale(1.2);
+ } 
