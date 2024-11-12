@@ -26,49 +26,6 @@ const actionlist =document.getElementById("genero-28")
 const thrillerlist =document.getElementById("genero-53")
 const adventurelist =document.getElementById("genero-12")
 
-/* action.forEach((element=>{
-    const divact=document.createElement("div")
-
-    const titleact=document.createElement("h3")
-    titleact.textContent=element.title;
-    const imgact=document.createElement("img")
-    imgact.src=element.poster_path
-    imgact.alt=element.title
-
-    divact.appendChild(titleact)
-    divact.appendChild(imgact)
-
-    actionlist.appendChild(divact)
-}))
-thriller.forEach((element=>{
-    const divthri=document.createElement("div")
-    
-    const titlethri=document.createElement("h3")
-    titlethri.textContent=element.title;
-    const imgthri=document.createElement("img")
-    imgthri.src=element.poster_path
-    imgthri.alt=element.title
-
-    divthri.appendChild(titlethri)
-    divthri.appendChild(imgthri)
-
-    thrillerlist.appendChild(divthri)
-}))
-adventure.forEach((element=>{
-    const divadv=document.createElement("div")
-    
-    const titlegen=document.createElement("h3")
-    titleadv.textContent=element.title;
-    const imgadv=document.createElement("img")
-    imgadv.src=element.poster_path
-    imgadv.alt=element.title
-
-    divadv.appendChild(titleadv)
-    divadv.appendChild(imgadv)
-
-    adventurelist.appendChild(divadv)
-})) */
-
 function ordermovies(pelicula,genlist){
     pelicula.forEach((element=>{
         const divgen=document.createElement("div")
